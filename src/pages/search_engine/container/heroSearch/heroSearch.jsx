@@ -70,7 +70,7 @@ export const HeroSearch = () => {
           />
         </FormControl>
 
-        <Box sx={{ display: { xs: "inline", md: "flex" } }}>
+        <Box sx={{ display: { xs: "inline", lg: "flex" } }}>
           <Box
             sx={{
               display: "flex",
@@ -87,7 +87,9 @@ export const HeroSearch = () => {
                 </Select>
               </FormControl>
 
-              <FormControl sx={{ width: "100%", mt: 3, pr: "17px" }}>
+              <FormControl
+                sx={{ width: "100%", mt: 3, pr: { xs: 0, md: "17px" } }}
+              >
                 <Select defaultValue="Välja kommun ONE" sx={{ padding: "0px" }}>
                   <MenuItem value="Välja kommun ONE">Välja kommun ONE</MenuItem>
                   <MenuItem value="Välja kommun TWO">Välja kommun TWO</MenuItem>
@@ -116,7 +118,9 @@ export const HeroSearch = () => {
                 </Select>
               </FormControl>
 
-              <FormControl sx={{ width: "100%", mt: 3, pr: "17px" }}>
+              <FormControl
+                sx={{ width: "100%", mt: 3, pr: { xs: 0, xl: "17px" } }}
+              >
                 <Select defaultValue="2019-2012 ONE" sx={{ padding: "0px" }}>
                   <MenuItem value="2019-2012 ONE">2019-2012 ONE</MenuItem>
                   <MenuItem value="2019-2012 TWO">2019-2012 TWO</MenuItem>

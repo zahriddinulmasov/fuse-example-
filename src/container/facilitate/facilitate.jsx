@@ -222,7 +222,7 @@ export const Facilitate = () => {
 
           <CardMedia
             sx={{
-              marginLeft: { xs: "20px", lg: "30px" },
+              marginLeft: { xs: 0, md: "15px", lg: "30px" },
               width: { xs: "282px", sm: "400px", md: "500px", lg: "608px" },
             }}
             component="img"

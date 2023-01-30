@@ -24,7 +24,7 @@ export const SaveTime = () => {
         >
           <CardMedia
             sx={{
-              marginRight: { xs: "20px", lg: "40px" },
+              marginRight: { xs: 0, md: "15px", lg: "40px" },
               width: { xs: "282px", sm: "400px", md: "500px", lg: "608px" },
             }}
             component="img"
@@ -32,7 +32,7 @@ export const SaveTime = () => {
             alt="
             Treaty cooperation"
           />
-          <Box sx={{ maxWidth: "100%"}}>
+          <Box sx={{ maxWidth: "100%" }}>
             <Typography
               variant="h4"
               component="p"

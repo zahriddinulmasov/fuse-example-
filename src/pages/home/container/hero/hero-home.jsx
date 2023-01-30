@@ -25,7 +25,7 @@ export const HeroHome = () => {
             flexDirection: { xs: "column-reverse", sm: "row" },
           }}
         >
-          <Box sx={{ maxWidth: "650px", marginRight: "20px" }}>
+          <Box sx={{ maxWidth: "650px", marginRight: { xs: 0, sm: "20px" } }}>
             <Typography
               variant="h4"
               component="p"
@@ -46,11 +46,11 @@ export const HeroHome = () => {
               variant="body2"
               color="text.secondary"
               sx={{
-                mb: {xs: "15px", sm: "30px"},
+                mb: { xs: "15px", sm: "30px" },
                 textAlign: { xs: "center", sm: "left" },
                 fontFamily: "Source Serif Pro",
                 fontWeight: "400",
-                fontSize: {xs: "16px", sm: "18px", md: "22px"},
+                fontSize: { xs: "16px", sm: "18px", md: "22px" },
                 lineHeight: "24px",
                 display: "flex",
                 alignItems: "center",
@@ -61,7 +61,7 @@ export const HeroHome = () => {
               Ta reda på hur andra kommuner gjort i liknande frågor som de du
               själv sitter med!
             </Typography>
-            <Box sx={{ display: {xs: "flex", sm: "inline"} }}>
+            <Box sx={{ display: { xs: "flex", sm: "inline" } }}>
               <Button
                 variant="contained"
                 sx={{

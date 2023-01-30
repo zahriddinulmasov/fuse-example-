@@ -26,7 +26,7 @@ export const Cooperation = () => {
         >
           <CardMedia
             sx={{
-              marginRight: { xs: "20px", lg: "40px" },
+              marginRight: { xs: 0, md: "20px", lg: "40px" },
               width: { xs: "282px", sm: "400px", md: "500px", lg: "608px" },
             }}
             component="img"

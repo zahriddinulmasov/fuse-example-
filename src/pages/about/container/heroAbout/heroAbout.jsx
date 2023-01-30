@@ -22,7 +22,7 @@ export const HeroAbout = () => {
         >
           <CardMedia
             sx={{
-              marginRight: { xs: "20px", lg: "40px" },
+              marginRight: { xs: "0", lg: "40px" },
               width: { xs: "300px", sm: "420px", md: "522px", lg: "700px" },
             }}
             component="img"
